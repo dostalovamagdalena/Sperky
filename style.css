@@ -1,6 +1,6 @@
 body {
-  background-image: url('images/pexels-cottonbro2-studio-5359322.png');
-  background-size: cover;
+  background-image: url('images/pexels-ari-roberts3.jpg');
+  background-size: contain;
   color: white;
   font-family: 'Raleway', sans-serif;
  
@@ -10,11 +10,11 @@ section {
   
 }
 .hero {
-  height: 100vh;
+  height: 70vh;
   display: flex;
-  
   flex-direction: column;
 }
+
 h1 {
   font-size: 60px;
   padding: 20px;
@@ -26,15 +26,24 @@ h2 {
   text-transform:uppercase;
 }
 .nav {
-  display: flex;
-  justify-content: space-between;
+  height: 30px;
+  padding-top: 10px;
+  padding-bottom: 7px;
+display: flex;
+justify-content: flex-start;
+gap: 30px;
+background-color:rgb(51, 31, 12,0.7);
+  width: 1290px;
   text-transform:uppercase;
+  position: sticky;
+  top:0;
+  margin:0;
 }
 
 ul {
   display: flex;
   list-style-type: none;
-  width: 500px;
+  width: 800px;
   justify-content: space-around;
   font-size: 20px;
   
@@ -109,5 +118,5 @@ box-shadow:5px 5px 10px rgba(138, 127, 112, 0.7);
   border-radius: 10px;
 }
 h3 {
-  background-color: red;
+  
 }
