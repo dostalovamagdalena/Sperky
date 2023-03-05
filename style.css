@@ -58,12 +58,12 @@ a {
   background-color: coral;
   font-weight: 500;
   width: 200px;
-  height: 40px;
+  height: 35px;
   font-size: 15px;
   border-radius: 10px;
   align-items: center;
   margin: auto;
-padding: 5px;
+padding-top: 17px;
   text-transform:uppercase;
   
 }
@@ -118,51 +118,25 @@ box-shadow:5px 5px 10px rgba(138, 127, 112, 0.8);
   background-color: rgb(230, 221, 210);
   text-align: center;
   border-radius: 10px;
-  height: 100vh;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
 }
 .creating-text {
   display: flex;
   margin-bottom: 40px;
-  justify-content: center;
+  justify-content: space-around;
   gap: 40px;
   padding: 20px;
   
 }
-/*/////////////Dropdown menu////////////*/
+.first-column {
+  width: 50%;
+}
+.second-column {
+  width: 50%;
+}
 
-.dropdown {
-  transition: all 0.2s ease-in-out;
-  overflow: hidden;
-  margin: 30px;
-  background: rgb(255, 255, 255);
-  border: solid 1px rgb(222, 222, 222);
-  width: 320px;
-  cursor: pointer;
-}
-.icon {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 25px 0 10px;
-}
-.menu {
-  height: 228px;
-}
-.menu li {
-  font-size: 24px;
-  
-  padding: 14px 10px;
-  border-top: solid 1px rgb(202, 202, 202);
-  
-}
-.dropdown.closed .menu {
-  height: 0px;
-}
-.dropdown.closed .icon span {
-  transform: rotate(180deg);
-}
-.dropdown-link {
-  color: rgb(58, 46, 36);
-}
 
 
 /*/////////////Dropdown menu22222////////////*/
@@ -174,14 +148,14 @@ box-shadow:5px 5px 10px rgba(138, 127, 112, 0.8);
   transition: all 0.2s ease-in-out;
   overflow: hidden;
   margin: 30px;
-  background: rgb(255, 255, 255);
+  background-color: rgb(230, 221, 210);
   border: solid 1px rgb(222, 222, 222);
-  width: 1200px;
+  width: 800px;
   cursor: pointer;
 }
 
 .menu2 {
-  height: 500px;
+  height: 200px;
 }
 .menu2 li {
   font-size: 15px;
@@ -193,6 +167,11 @@ box-shadow:5px 5px 10px rgba(138, 127, 112, 0.8);
 .dropdown2.closed .menu2 {
   height: 0px;
 }
+
 .dropdown-link2 {
   color: rgb(58, 46, 36);
 }
+
+
+
+
