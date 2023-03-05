@@ -186,4 +186,89 @@ box-shadow:5px 5px 10px rgba(138, 127, 112, 0.8);
 footer {
   height: 40vh;
   background-color:rgb(58, 46, 36);
+  border-radius: 10px;
+  color: white;
+}
+.contact {
+  margin: 30px;
+}
+.contact-header {
+  padding-top: 30px;
+}
+
+
+/*////////media queries//////////*/
+@media only screen and (max-width: 1000px) {
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .products {
+    
+    height: 1050px;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .about {
+    padding: 10px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+  }
+  .about-image {
+    width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  align-content: center;
+  margin: auto;
+  }
+
+  .about-text {
+    margin: 10px;
+  }
+  .about-second {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  .nav {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 17px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /*
+  .nav { nefunguje
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+  }*/
+  .products {
+    
+    height: 2050px;
+    margin-bottom: 20px;
+  }
+  .about {
+    
+    height: 120vh;
+  }
+  .creating {
+    height: 1500px;
+  }
+  .creating-text {
+    display: flex;
+   
+    flex-wrap: wrap;
+  }
+  hr {
+display: none;
+  }
 }
