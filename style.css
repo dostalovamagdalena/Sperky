@@ -197,7 +197,7 @@ footer {
 }
 
 
-/*////////media queries//////////*/
+/*////////media//////////*/
 @media only screen and (max-width: 1000px) {
   .product-container {
     display: flex;
