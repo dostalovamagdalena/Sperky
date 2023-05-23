@@ -1,5 +1,5 @@
 # Sperky
-- fiktivní úvodní stránka 
+- fiktivní úvodní stránka prodeje a kurů na výrobu šperků
 ## Použité technologie
 - HTML, CSS a zkoušela jsem přidat i pár prvků v JavaScriptu
 ## Co dál?
