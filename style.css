@@ -46,6 +46,12 @@ background-color:rgb(51, 31, 12,0.7);
   margin:0;
   color: white;
 }
+.hamburger {
+  display: none;
+}
+.hamburger:focus {
+  outline: 0;
+}
 
 a {
   text-decoration: none;
@@ -208,6 +214,12 @@ footer {
     height: 1050px;
     margin-bottom: 40px;
   }
+  .hamburger {
+    display: none;
+  }
+  .hamburger:focus {
+    outline: 0;
+  }
 }
 @media only screen and (max-width: 800px) {
   .about {
@@ -242,15 +254,40 @@ footer {
   h3 {
     font-size: 15px;
   }
+  .hamburger {
+    display: none;
+  }
+  .hamburger:focus {
+    outline: 0;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-  /*
-  .nav { nefunguje
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    font-size: 30px;
+    margin: 10px;
+    align-self: flex-end;
+    color: white;
+  }
+  .nav {
+    display: none;
+   height: fit-content;
+    margin: 0px;
+    padding: 5px 5px;
+  }
+  
+  ul.show {
+    display: block;
+    background-color:transparent;
+  }
+  nav {
     display: flex;
-    flex-wrap: wrap;
-    height: 50px;
-  }*/
+    flex-direction: column-reverse;
+    background-color:rgb(51, 31, 12,0.7);
+  }
   .products {
     
     height: 2050px;
@@ -270,5 +307,12 @@ footer {
   }
   hr {
 display: none;
+  }
+  body {
+    background-image: url('images/pexels-ari-roberts4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  
   }
 }

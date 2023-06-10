@@ -16,5 +16,14 @@ dropdown2.addEventListener('click', (e) => {
   }
 })
 
+const hamburgerButton = document.getElementById('hamburger')
+const navList = document.getElementById('nav2')
+
+
+function toggleButton() {
+  navList.classList.toggle('show')
+}
+
+hamburgerButton.addEventListener('click', toggleButton)
 
 
