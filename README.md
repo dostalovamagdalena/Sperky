@@ -1,4 +1,4 @@
-# Sperky
+# Šperky
 - fiktivní úvodní stránka prodeje a kurzů na výrobu šperků
 - dole jsem pomocí Vanilla JavaScriptu vytvořila něco jako vyskakovací výběr termínů pro objednávání
 ## Použité technologie
