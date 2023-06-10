@@ -39,7 +39,7 @@ justify-content: flex-start;
 gap: 30px;
 font-size: 20px;
 background-color:rgb(51, 31, 12,0.7);
-  width: 1290px;
+  
   text-transform: uppercase;
   position: sticky;
   top:0;
@@ -277,17 +277,21 @@ footer {
    height: fit-content;
     margin: 0px;
     padding: 5px 5px;
+    
   }
   
   ul.show {
     display: block;
     background-color:transparent;
+    width: fit-content;
+    
   }
   nav {
     display: flex;
     flex-direction: column-reverse;
     background-color:rgb(51, 31, 12,0.7);
   }
+  
   .products {
     
     height: 2050px;
