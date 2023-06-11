@@ -4,13 +4,6 @@
 ## Použité technologie
 - HTML, CSS a zkoušela jsem přidat i pár prvků v JavaScriptu
 ## Co dál?
-<<<<<<< HEAD
--vyskakovací výběr termínů není úplně dokonalý, chce to doladit
-
-##Odkaz
-https://dostalovamagdalena.github.io/Sperky/
-
-=======
 - opravení hamburgerového menu, které teď nějak zlobí, stránka bude díky tomu responzivnější
 ## Odkaz
 https://dostalovamagdalena.github.io/sperky/
